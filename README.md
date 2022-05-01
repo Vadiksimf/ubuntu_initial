@@ -45,16 +45,6 @@ sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 sudo apt-get update
 sudo apt-get -y install postgresql
-
-*Create DB
-createdb sammy
-sudo -u postgres createdb sammy
-
-To login without a password:
-sudo -u user_name psql db_name
-
-To reset the password if you have forgotten:
-ALTER USER user_name WITH PASSWORD 'new_password';
 ```
 Redis
 ```
@@ -68,8 +58,8 @@ sudo systemctl status redis
 
 sudo systemctl disable redis
 
-redis-cli
-> ping
+# redis-cli
+# > ping
 ```
 Docker
 ```
@@ -94,7 +84,7 @@ sudo snap install dbeaver-ce
 
 Vakentina Studio
 ```
-sudo dpkg -i vstudio_x64_10_lin.deb
+# sudo dpkg -i vstudio_x64_10_lin.deb
 ```
 Visual Stusio Code
 ```

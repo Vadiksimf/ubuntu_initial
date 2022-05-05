@@ -98,4 +98,7 @@ sudo snap install postman
 ```
 
 
+# Other soft
+sudo apt install vlc -y
+
 

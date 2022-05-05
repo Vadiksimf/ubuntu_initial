@@ -20,7 +20,7 @@ source ~/.bashrc
 
 nvm list-remote
 
-nvm install v12.20.2
+nvm install v18.1.0
 ```
 Slack
 ```
